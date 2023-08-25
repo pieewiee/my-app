@@ -6,7 +6,7 @@ on:
       - main
 env:
   AZURE_WEBAPP_NAME: bestonicWebAppInTheWorld  # Set this to your app service name
-  PACKAGE_PATH: './www' # Set this to the path to your web app project, defaults to the repository root
+  PACKAGE_PATH: '.' # Set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: 18.x # Set this to the node version to use
 jobs:
   build-and-deploy:
