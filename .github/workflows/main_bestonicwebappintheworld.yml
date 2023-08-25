@@ -39,5 +39,5 @@ jobs:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           # Before downloading load publish profile, make sure that you have set WEBSITE_WEBDEPLOY_USE_SCM
           # in App Service Configuration to true
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_54D3452FFDE24184AAF872B18ABCADD7 }}
           package: ${{ env.PACKAGE_PATH }}
